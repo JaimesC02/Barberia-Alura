@@ -1,9 +1,13 @@
 body{
-    background: #CCCCCC;
+    
 }
 
 #banner{
     width: 100%;
+}
+
+.principial{
+    background: #CCCCCC;
 }
 
 h1{
@@ -20,6 +24,14 @@ p{
 
 em strong{
     color: red;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+}
+
+h2{
+    text-align: center;
 }
 
 .items{
