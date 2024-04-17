@@ -44,7 +44,9 @@ nav a {
     box-sizing: border-box;
     border-color: #000000;
     border-width: 2px;
+    border-top-width: 15px;
     border-style: solid;
+    border-radius: 10px;
 }
 
 .productos h2 {
