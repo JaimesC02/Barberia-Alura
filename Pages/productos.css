@@ -40,6 +40,14 @@ nav a:hover{
     padding: 50px;
 }
 
+.productos li:hover { /*activa el efecto cuando se pasa el mouse por el elemento*/
+    border-color:#C78C19;
+}
+
+.productos li:active{ /*activa el efecto cuando se clickea por el elemento*/
+    border-color: #088C19;
+}
+
 .productos li {
     display: inline-block;
     text-align: center;
@@ -58,6 +66,10 @@ nav a:hover{
 .productos h2 {
     font-size: 30px;
     font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
 }
 
 .producto-descripcion {
